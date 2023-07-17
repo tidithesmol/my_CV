@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arteida Krasniqi</title>
+</head>
+<body>
+    <table border="2" width="500" padding="8" align="center">
+        <th colspan="3">
+            Arteida Krasniqi
+        </th>
+        <tr>
+            <td width="150">
+                <img src="photo.JPG" alt="profile_image" height="200">
+            </td>
+            <td colspan="2"> Personal information:</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3"> <b> Education </b> </td>
+        </tr>
+        <tr>
+            <td colspan="3" padding="10">
+                <ul>
+                    <li>Shkolla fillore e mesme e ulët "Hasan Prishtina"</li>
+                    <li>Gjimnazi i shkencave natyrore "Eqrem Çabej"</li>
+                    <li>Kolegji "Riinvest"</li>
+                </ul>
+            </td>
+
+        </tr>
+        <tr>
+            <td align="center" colspan="3"><b>Socials</b></td>
+        </tr>
+        <tr align="center">
+            <td><a href="https://www.instagram.com/" target="_blank">Instagram</a></td>
+            <td> <a href="https://www.facebook.com/" target="_blank">Facebook</a></td>
+            <td> <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3"><b>Skills</b></td>
+        </tr>
+        <tr>
+            <td>Transferable/Functional
+                <ul>
+                    <li>Organize</li>
+                    <li>Promote</li>
+                    <li>Analyze</li>
+                </ul>
+            </td>
+            <td>Personal Traits/Attitudes
+                <ul>
+                    <li>Dependable</li>
+                    <li>Goal-oriented</li>
+                    <li>Team-worker</li>
+                </ul>
+            </td>
+            <td>Knowledge-based
+                <ul>
+                    <li>Programming</li>
+                    <li>Administration</li>
+                    <li>PR</li>
+                </ul>
+            </td>
+        </tr>
+        <td colspan="3" align="center">
+            <h3>Leave a message</h3>
+            <form>
+                <fieldset>
+                <label for="_emri">Emri dhe Mbiemri: </label>
+                <input type="text" 
+                placeholder="Enter Name and lastname"
+                id="_emri" 
+                minlength="5" 
+                maxlength="15"
+                required/>
+                <br>
+                <br>
+                <label for="_numri">Numri i telefonit: </label>
+                <input type="tel"  
+                 name="phone"
+                placeholder="Enter phone number"
+                id="_numri"
+                required
+                pattern="[0-9]+"/>
+                <br>
+                <br>
+                <label for="_email">E-mail</label>
+                <input type="email"
+                name="email"
+                placeholder="Enter e-mail"
+                id="_email"
+                required />
+                <br>
+                <br>
+                <label for="_msg">Leave a message: </label>
+                <textarea name="message" id="_msg" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
+            </fieldset>
+                <label for="urg">Urgent: </label>                
+                <input type="checkbox" name="urgent" id="urg" value="Urgent"/>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+            </td>
+    </table>
+</body>
+</html>
